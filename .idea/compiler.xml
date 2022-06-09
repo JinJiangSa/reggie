@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="reggie_take_out" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="brand-case" target="8" />
+      <module name="demo_controller" target="8" />
+      <module name="demo_dao" target="8" />
+      <module name="demo_domain" target="8" />
+      <module name="demo_service" target="8" />
+      <module name="maven_01_parent" target="1.5" />
+      <module name="maven_03_domain" target="1.5" />
+      <module name="maven_04_dao" target="1.5" />
+      <module name="mybatisplus_dml" target="1.8" />
+      <module name="mybatisplus_dql" target="1.8" />
+      <module name="mybatisplus_quickstart" target="1.8" />
+      <module name="springBoot_case_test" target="1.8" />
+      <module name="springBoot_maven" target="8" />
+      <module name="springboot_ssm" target="1.8" />
+      <module name="springBoot_test" target="1.8" />
+      <module name="springmvc_08_ssm" target="1.5" />
+      <module name="springmvc_09_result" target="1.5" />
+      <module name="springmvc_ssm_case" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo_controller" options="-parameters" />
+      <module name="demo_dao" options="-parameters" />
+      <module name="demo_domain" options="-parameters" />
+      <module name="demo_service" options="-parameters" />
+      <module name="mybatisplus_dml" options="-parameters" />
+      <module name="mybatisplus_dql" options="-parameters" />
+      <module name="mybatisplus_quickstart" options="-parameters" />
+      <module name="reggie_take_out" options="-parameters" />
+      <module name="springBoot_case_test" options="-parameters" />
+      <module name="springBoot_test" options="-parameters" />
+      <module name="springboot_ssm" options="-parameters" />
+    </option>
+  </component>
+</project>
