@@ -42,7 +42,6 @@ public class EmployeeController {
         LambdaQueryWrapper<Employee> lqw = new LambdaQueryWrapper();
         lqw.eq(Employee::getUsername, employee.getUsername());
         Employee emp = employeeService.getOne(lqw);
-        System.out.println("abc");
 
         //3、如果没有查询到则返回登录失败结果
         if (emp == null) {
